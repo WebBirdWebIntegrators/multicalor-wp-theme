@@ -1,0 +1,47 @@
+@eagle-less-path: "../../eagle/less";
+
+@import "variables.less";
+@import "custom.less";
+@import "@{eagle-less-path}/mixins.less";
+@import "@{eagle-less-path}/reset.less";
+@import "@{eagle-less-path}/fonts-fonts-com.less";
+@import "@{eagle-less-path}/global.less";
+@import "@{eagle-less-path}/layout.less";
+
+@media only screen and (min-width: @bp1) {
+@import "../../eagle/less/bp1.less"; 
+}
+
+@media only screen and (min-width: @bp2) {
+@import "../../eagle/less/bp2.less";
+}
+
+@media only screen and (min-width: @bp3) {
+@import "../../eagle/less/bp3.less";
+}
+
+@media only screen and (min-width: @bp4) {
+@import "../../eagle/less/bp4.less";
+}
+
+@media only screen and (min-width: @bp5) {
+@import "../../eagle/less/bp5.less";
+}
+
+@media only screen and (min-width: @bp6) {
+@import "../../eagle/less/bp6.less";
+}
+
+@import "@{eagle-less-path}/wordpress.less";
+
+// WebBird Plugins
+@import "../../eagle/plugins/webbird-products/less/layout.less";
+@import "../../../plugins/webbird-contacts/less/styles.less";
+
+@import "@{eagle-less-path}/plugins/woocommerce.less";
+@import "@{eagle-less-path}/plugins/woocommerce-eu-vat-number.less";
+@import "@{eagle-less-path}/plugins/woocommerceformsfields.less";
+@import "@{eagle-less-path}/plugins/gravityforms.less";
+@import "@{eagle-less-path}/plugins/mappress.less";
+@import "@{eagle-less-path}/plugins/vipersvideotags.less";
+@import "@{eagle-less-path}/plugins/acf.less";
