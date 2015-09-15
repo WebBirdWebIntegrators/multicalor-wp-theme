@@ -4,4 +4,6 @@
   <?php get_template_part( 'category-references' ); ?>
 <?php } elseif( is_category('references') ) { ?>
   <?php get_template_part( 'category-references' ); ?>
+<?php } else { ?>
+  <?php get_template_part( 'category_default' ); ?>
 <?php } ?>
